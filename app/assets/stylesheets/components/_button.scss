@@ -1,0 +1,35 @@
+.btn-ghost {
+  display: inline-block;
+  margin-top: 16px;
+  color: $purple;
+  border: 1px solid $white;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  background-color: rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease;
+  &:hover {
+    background-color: $white;
+    color: black;
+  }
+}
+.arrow-btn {
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 150px auto 0 auto;
+  padding: 16px;
+  width: 50px;
+  background-color: $purple;
+  color: white;
+  border-radius: 8px;
+  a {
+    text-decoration: none;
+  }
+  &:hover {
+    color: $purple;
+    background-color:white;
+  }
+}
