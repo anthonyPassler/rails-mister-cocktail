@@ -1,7 +1,7 @@
 .btn-ghost {
   display: inline-block;
   margin-top: 16px;
-  color: $purple;
+  color: $gold;
   border: 1px solid $white;
   padding: 8px 24px;
   border-radius: 50px;
@@ -22,14 +22,14 @@
   margin: 150px auto 0 auto;
   padding: 16px;
   width: 50px;
-  background-color: $purple;
+  background-color: $gold;
   color: white;
   border-radius: 8px;
   a {
     text-decoration: none;
   }
   &:hover {
-    color: $purple;
+    color: $gold;
     background-color:white;
   }
 }
