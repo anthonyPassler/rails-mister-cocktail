@@ -9,8 +9,16 @@
 
 
 
-<div id="cocktails">
-  <% @cocktails.each do |cocktail| %>
-    <h2><%= link_to cocktail.name, cocktail_path(cocktail) %></h2>
-  <% end %>
+<div id="cocktails" class="container">
+  <h2>All Cocktails</h2>
+  <div class="cocktails-container">
+    <% @cocktails.each do |cocktail| %>
+        <%= link_to cocktail.name, cocktail_path(cocktail), class: "card-category"  %>
+    <% end %>
+  </div>
 </div>
+
+
+<footer>
+  <p>All rights reserved anthonyPassler © 2020</p>
+</footer>
