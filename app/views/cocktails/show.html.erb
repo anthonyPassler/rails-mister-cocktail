@@ -1,7 +1,7 @@
 <div class="wrapper">
 
  <% if @cocktail.photo.attached? %>
-   <div class="cocktail-img" style="background-image: url('<%= cl_image_path(@cocktail.photo.key,crop: :fill)  %>')"></div>
+   <div class="cocktail-img" style="background-image: url('<%= cl_image_path(@cocktail.photo.key)  %>')"></div>
  <% else %>
    <div class="cocktail-img" style="background-color: red;')"></div>
  <% end %>
@@ -23,3 +23,7 @@
   </div>
 
 </div>
+
+
+
+
